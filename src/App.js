@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="container">
-      Hello World
+      Hello World!
     </div>
   );
 }
