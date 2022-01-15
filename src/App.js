@@ -23,7 +23,7 @@ function App() {
             </div>
 
             <div className="container-login-form-btn">
-              <button className="login-form btn">Login</button>
+              <button className="login-form-btn">Login</button>
             </div>
 
             <div className="create-account">
