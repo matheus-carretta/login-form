@@ -1,4 +1,5 @@
 import welcome from './assets/welcome.svg';
+import './style.css';
 
 function App() {
   return (
@@ -11,14 +12,14 @@ function App() {
               <img src={ welcome } alt="Vem" />
             </span>
 
-            <div className="wrapper-inputs">
-              <input type="email" />
+            <div className="wrapper-input">
+              <input className='input-email' type="email" />
               <span className="focus-input" data-placeholder='Email'></span>
             </div>
 
-            <div className="wrapper-inputs">
-              <input type="email" />
-              <span className="focus-input" data-placeholder='Email'></span>
+            <div className="wrapper-input">
+              <input className='input-password' type="password" />
+              <span className="focus-input" data-placeholder='Password'></span>
             </div>
 
             <div className="container-login-form-btn">
